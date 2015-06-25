@@ -4,11 +4,11 @@ A Mad Libs Gem From The Best Of Ruby Quiz By James Edward Grey II
 
 ## Installation
 
-    $ gem install mad_libs
+`$ gem install mad_libs`
 
 ## Usage
 
-run madlibs from the command line
+`$ madlibs`
 
 ## Contributing
 
