@@ -8,7 +8,19 @@ A Mad Libs Gem From The Best Of Ruby Quiz By James Edward Grey II
 
 ## Usage
 
-`$ madlibs`
+`$ madlibs play STORYFILE`
+
+## STORYFILE Specifications
+  
+The story should be a one-liner
+
+The story may have multiple placeholders
+
+### Examples
+
+`((a friend of yours)) is really a ((an adjective)) friend` 
+
+`Lots of people think that ((a vegetable)) is a fruit`
 
 ## Contributing
 

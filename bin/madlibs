@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+require 'thor'
+require 'mad_libs'
+
+class MadLibsCLI < Thor
+  include MadLibs
+
+  desc 'play FILE', 'play a story from a file'
+  def play(file)
+    @story = Story.new(File.read(file))
+    @story.keys.each do |key|
+      print "Submit #{key} : "
+      @story[key] = STDIN.gets.chomp
+    end
+    puts @story.render
+  end
+end
+
+MadLibsCLI.start(ARGV)

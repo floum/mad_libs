@@ -1,5 +1,2 @@
-require "mad_libs/version"
-
-module MadLibs
-  # Your code goes here...
-end
+require 'mad_libs/version'
+require 'mad_libs/story'
